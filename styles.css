@@ -66,6 +66,7 @@ form {
   text-align: center;
   padding: 9px;
   border: 0;
+  color: black;
 }
 
 #answer-button {
@@ -109,3 +110,20 @@ aside {
 placeholder {
   color: #2B4E80;
 }
+
+/* hidden elements at pageload */
+.restate-question-spot {
+  font-style: italic;
+  font-size: 24px;
+  color: black;
+}
+
+.random-answer-spot {
+  font-style: italic;
+  font-size: 28px;
+  color: black;
+}
+
+/* #hide-ball {
+  display: none;
+} */
