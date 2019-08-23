@@ -10,3 +10,102 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #2B4E80;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.3em;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 46%;
+  background-color: #E6ECF4;
+  padding: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  padding: 9x;
+  font-size: 18px;
+}
+
+#question-input {
+  text-align: center;
+  padding: 9px;
+  border: 0;
+}
+
+#answer-button {
+  background-color: #2B4E80;
+  margin-top: 10px;
+  padding: 9px;
+  border: 0;
+}
+
+#clear-button {
+  background-color: #D0CDCD;
+  padding: 9px 16px;
+  border: 0;
+}
+
+article {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+.ball-image {
+  width: 32%;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  width: 36%;
+}
+
+.woody-image {
+  width: 76%;
+}
+
+placeholder {
+  color: #2B4E80;
+}
